@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "ackermann_msgs__rs",
+		"source" : "/home/shaggy/paper_implementation/agv_localisation_implementation/build/ackermann_msgs/ackermann_msgs__rs"
+	}
+}

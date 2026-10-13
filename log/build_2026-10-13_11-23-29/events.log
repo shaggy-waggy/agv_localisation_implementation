@@ -1,0 +1,93 @@
+[0.000000] (-) TimerEvent: {}
+[0.000072] (-) JobUnselected: {'identifier': 'ackermann_msgs'}
+[0.000086] (-) JobUnselected: {'identifier': 'racecar_simulator'}
+[0.000135] (localization) JobQueued: {'identifier': 'localization', 'dependencies': OrderedDict([('ackermann_msgs', '/home/shaggy/paper_implementation/agv_localisation_implementation/install/ackermann_msgs'), ('racecar_simulator', '/home/shaggy/paper_implementation/agv_localisation_implementation/install/racecar_simulator')])}
+[0.000154] (localization) JobStarted: {'identifier': 'localization'}
+[0.099553] (-) TimerEvent: {}
+[0.200916] (-) TimerEvent: {}
+[0.305691] (-) TimerEvent: {}
+[0.406619] (-) TimerEvent: {}
+[0.510592] (-) TimerEvent: {}
+[0.615218] (-) TimerEvent: {}
+[0.715423] (-) TimerEvent: {}
+[0.815587] (-) TimerEvent: {}
+[0.916957] (-) TimerEvent: {}
+[1.018657] (-) TimerEvent: {}
+[1.119353] (-) TimerEvent: {}
+[1.223079] (-) TimerEvent: {}
+[1.327694] (-) TimerEvent: {}
+[1.427894] (-) TimerEvent: {}
+[1.531343] (-) TimerEvent: {}
+[1.632433] (-) TimerEvent: {}
+[1.732617] (-) TimerEvent: {}
+[1.832809] (-) TimerEvent: {}
+[1.934308] (-) TimerEvent: {}
+[2.006229] (localization) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/shaggy/paper_implementation/agv_localisation_implementation/build/localization/build', '--no-deps', 'symlink_data'], 'cwd': '/home/shaggy/paper_implementation/agv_localisation_implementation/build/localization', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'shaggy', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/shaggy/paper_implementation/agv_localisation_implementation/install/ackermann_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/shaggy', 'OLDPWD': '/home/shaggy/paper_implementation/agv_localisation_implementation', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1489', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/shaggy/paper_implementation/agv_localisation_implementation/install:/home/shaggy/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'shaggy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'shaggy', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/shaggywaggy:@/tmp/.ICE-unix/1466,unix/shaggywaggy:/tmp/.ICE-unix/1466', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/dded7df8_3e75_4463_894c_1df3876bc56b', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.RN7PW3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.150', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/shaggy/paper_implementation/agv_localisation_implementation/install/racecar_simulator:/home/shaggy/paper_implementation/agv_localisation_implementation/install/ackermann_msgs:/home/shaggy/ros2_ws/install/autodrive_roboracer:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'SIM_WS': '/home/shaggy/paper_implementation/agv_localisation_implementation', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/shaggy/paper_implementation/agv_localisation_implementation/build/localization', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/shaggy/paper_implementation/agv_localisation_implementation/build/localization/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shaggy/paper_implementation/agv_localisation_implementation/install/localization/lib/python3.10/site-packages:/home/shaggy/paper_implementation/agv_localisation_implementation/install/ackermann_msgs/local/lib/python3.10/dist-packages:/home/shaggy/ros2_ws/build/autodrive_roboracer:/home/shaggy/ros2_ws/install/autodrive_roboracer/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/shaggy/paper_implementation/agv_localisation_implementation/install/racecar_simulator:/home/shaggy/paper_implementation/agv_localisation_implementation/install/ackermann_msgs'}, 'shell': False}
+[2.035090] (-) TimerEvent: {}
+[2.135293] (-) TimerEvent: {}
+[2.235461] (-) TimerEvent: {}
+[2.338484] (-) TimerEvent: {}
+[2.439328] (-) TimerEvent: {}
+[2.523432] (localization) StderrLine: {'line': b"/usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead\n"}
+[2.523532] (localization) StderrLine: {'line': b'  warnings.warn(\n'}
+[2.528860] (localization) StdoutLine: {'line': b'\x1b[39mrunning develop\x1b[0m\n'}
+[2.540502] (-) TimerEvent: {}
+[2.582868] (localization) StdoutLine: {'line': b'\x1b[39mrunning egg_info\x1b[0m\n'}
+[2.582934] (localization) StdoutLine: {'line': b'\x1b[39mcreating localization.egg-info\x1b[0m\n'}
+[2.582954] (localization) StdoutLine: {'line': b'\x1b[39mwriting localization.egg-info/PKG-INFO\x1b[0m\n'}
+[2.582972] (localization) StdoutLine: {'line': b'\x1b[39mwriting dependency_links to localization.egg-info/dependency_links.txt\x1b[0m\n'}
+[2.582990] (localization) StdoutLine: {'line': b'\x1b[39mwriting entry points to localization.egg-info/entry_points.txt\x1b[0m\n'}
+[2.583007] (localization) StdoutLine: {'line': b'\x1b[39mwriting requirements to localization.egg-info/requires.txt\x1b[0m\n'}
+[2.583023] (localization) StdoutLine: {'line': b'\x1b[39mwriting top-level names to localization.egg-info/top_level.txt\x1b[0m\n'}
+[2.583040] (localization) StdoutLine: {'line': b"\x1b[39mwriting manifest file 'localization.egg-info/SOURCES.txt'\x1b[0m\n"}
+[2.583836] (localization) StdoutLine: {'line': b"\x1b[39mreading manifest file 'localization.egg-info/SOURCES.txt'\x1b[0m\n"}
+[2.584112] (localization) StdoutLine: {'line': b"\x1b[39mwriting manifest file 'localization.egg-info/SOURCES.txt'\x1b[0m\n"}
+[2.584205] (localization) StdoutLine: {'line': b'\x1b[39mrunning build_ext\x1b[0m\n'}
+[2.584753] (localization) StdoutLine: {'line': b"\x1b[39mbuilding 'scan_simulator_2d' extension\x1b[0m\n"}
+[2.589106] (localization) StdoutLine: {'line': b'\x1b[39mC compiler: aarch64-linux-gnu-gcc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O2 -Wall -g -fstack-protector-strong -Wformat -Werror=format-security -g -fwrapv -O2 -g -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -fPIC\n'}
+[2.589163] (localization) StdoutLine: {'line': b'\x1b[0m\n'}
+[2.589192] (localization) StdoutLine: {'line': b'\x1b[39mcreating build\x1b[0m\n'}
+[2.589218] (localization) StdoutLine: {'line': b'\x1b[39mcreating build/temp.linux-aarch64-3.10\x1b[0m\n'}
+[2.589241] (localization) StdoutLine: {'line': b'\x1b[39mcreating build/temp.linux-aarch64-3.10/localization\x1b[0m\n'}
+[2.589292] (localization) StdoutLine: {'line': b"\x1b[39mcompile options: '-I/home/shaggy/paper_implementation/agv_localisation_implementation/install/racecar_simulator/include -I/home/shaggy/paper_implementation/agv_localisation_implementation/install/localization/include -I/usr/include/python3.10 -c'\n"}
+[2.589311] (localization) StdoutLine: {'line': b"extra options: '-Wno-cpp -g -Wno-maybe-uninitialized'\x1b[0m\n"}
+[2.589329] (localization) StdoutLine: {'line': b'\x1b[39maarch64-linux-gnu-gcc: localization/scan_simulator_2d.cpp\x1b[0m\n'}
+[2.640612] (-) TimerEvent: {}
+[2.745155] (-) TimerEvent: {}
+[2.849665] (-) TimerEvent: {}
+[2.950468] (-) TimerEvent: {}
+[3.055147] (-) TimerEvent: {}
+[3.159647] (-) TimerEvent: {}
+[3.261275] (-) TimerEvent: {}
+[3.365681] (-) TimerEvent: {}
+[3.428633] (localization) StdoutLine: {'line': b'\x1b[39mcreating build/lib.linux-aarch64-3.10\x1b[0m\n'}
+[3.428716] (localization) StdoutLine: {'line': b'\x1b[39maarch64-linux-gnu-g++ -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-Bsymbolic-functions -g -fwrapv -O2 -Wl,-Bsymbolic-functions -g -fwrapv -O2 -g -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 build/temp.linux-aarch64-3.10/localization/scan_simulator_2d.o -L/home/shaggy/paper_implementation/agv_localisation_implementation/install/racecar_simulator/lib -lracecar_simulator -o build/lib.linux-aarch64-3.10/scan_simulator_2d.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[3.452748] (localization) StdoutLine: {'line': b'\x1b[39mcopying build/lib.linux-aarch64-3.10/scan_simulator_2d.cpython-310-aarch64-linux-gnu.so -> \x1b[0m\n'}
+[3.452923] (localization) StdoutLine: {'line': b'\x1b[39mCreating /home/shaggy/paper_implementation/agv_localisation_implementation/install/localization/lib/python3.10/site-packages/localization.egg-link (link to .)\x1b[0m\n'}
+[3.453334] (localization) StdoutLine: {'line': b'\x1b[39mInstalling motion_model_test script to /home/shaggy/paper_implementation/agv_localisation_implementation/install/localization/lib/localization\x1b[0m\n'}
+[3.453438] (localization) StdoutLine: {'line': b'\x1b[39mInstalling particle_filter script to /home/shaggy/paper_implementation/agv_localisation_implementation/install/localization/lib/localization\x1b[0m\n'}
+[3.453602] (localization) StdoutLine: {'line': b'\x1b[39mInstalling sensor_model_test script to /home/shaggy/paper_implementation/agv_localisation_implementation/install/localization/lib/localization\x1b[0m\n'}
+[3.453645] (localization) StdoutLine: {'line': b'\x1b[39m\n'}
+[3.453673] (localization) StdoutLine: {'line': b'Installed /home/shaggy/paper_implementation/agv_localisation_implementation/build/localization\x1b[0m\n'}
+[3.453699] (localization) StdoutLine: {'line': b'\x1b[39mrunning symlink_data\x1b[0m\n'}
+[3.453727] (localization) StdoutLine: {'line': b'\x1b[39mcreating /home/shaggy/paper_implementation/agv_localisation_implementation/install/localization/share/ament_index\x1b[0m\n'}
+[3.453753] (localization) StdoutLine: {'line': b'\x1b[39mcreating /home/shaggy/paper_implementation/agv_localisation_implementation/install/localization/share/ament_index/resource_index\x1b[0m\n'}
+[3.453825] (localization) StdoutLine: {'line': b'\x1b[39mcreating /home/shaggy/paper_implementation/agv_localisation_implementation/install/localization/share/ament_index/resource_index/packages\x1b[0m\n'}
+[3.453901] (localization) StdoutLine: {'line': b'\x1b[39msymbolically linking /home/shaggy/paper_implementation/agv_localisation_implementation/build/localization/resource/localization -> /home/shaggy/paper_implementation/agv_localisation_implementation/install/localization/share/ament_index/resource_index/packages\x1b[0m\n'}
+[3.453933] (localization) StdoutLine: {'line': b'\x1b[39msymbolically linking /home/shaggy/paper_implementation/agv_localisation_implementation/build/localization/package.xml -> /home/shaggy/paper_implementation/agv_localisation_implementation/install/localization/share/localization\x1b[0m\n'}
+[3.453958] (localization) StdoutLine: {'line': b'\x1b[39msymbolically linking /home/shaggy/paper_implementation/agv_localisation_implementation/build/localization/localization/params.yaml -> /home/shaggy/paper_implementation/agv_localisation_implementation/install/localization/share/localization\x1b[0m\n'}
+[3.454057] (localization) StdoutLine: {'line': b'\x1b[39msymbolically linking /home/shaggy/paper_implementation/agv_localisation_implementation/build/localization/localization/test/test_params.yaml -> /home/shaggy/paper_implementation/agv_localisation_implementation/install/localization/share/localization\x1b[0m\n'}
+[3.454085] (localization) StdoutLine: {'line': b'\x1b[39msymbolically linking /home/shaggy/paper_implementation/agv_localisation_implementation/build/localization/localization/real_params.yaml -> /home/shaggy/paper_implementation/agv_localisation_implementation/install/localization/share/localization\x1b[0m\n'}
+[3.454105] (localization) StdoutLine: {'line': b'\x1b[39mcreating /home/shaggy/paper_implementation/agv_localisation_implementation/install/localization/share/localization/launch\x1b[0m\n'}
+[3.454124] (localization) StdoutLine: {'line': b'\x1b[39msymbolically linking /home/shaggy/paper_implementation/agv_localisation_implementation/build/localization/launch/localize.launch.xml -> /home/shaggy/paper_implementation/agv_localisation_implementation/install/localization/share/localization/launch\x1b[0m\n'}
+[3.454143] (localization) StdoutLine: {'line': b'\x1b[39msymbolically linking /home/shaggy/paper_implementation/agv_localisation_implementation/build/localization/launch/unit_tests/motion_model_test.launch.py -> /home/shaggy/paper_implementation/agv_localisation_implementation/install/localization/share/localization/launch\x1b[0m\n'}
+[3.454163] (localization) StdoutLine: {'line': b'\x1b[39msymbolically linking /home/shaggy/paper_implementation/agv_localisation_implementation/build/localization/launch/unit_tests/test_map.launch.xml -> /home/shaggy/paper_implementation/agv_localisation_implementation/install/localization/share/localization/launch\x1b[0m\n'}
+[3.454182] (localization) StdoutLine: {'line': b'\x1b[39msymbolically linking /home/shaggy/paper_implementation/agv_localisation_implementation/build/localization/launch/unit_tests/sensor_model_test.launch.py -> /home/shaggy/paper_implementation/agv_localisation_implementation/install/localization/share/localization/launch\x1b[0m\n'}
+[3.454201] (localization) StdoutLine: {'line': b'\x1b[39mcreating /home/shaggy/paper_implementation/agv_localisation_implementation/install/localization/share/localization/test_map\x1b[0m\n'}
+[3.454219] (localization) StdoutLine: {'line': b'\x1b[39msymbolically linking /home/shaggy/paper_implementation/agv_localisation_implementation/build/localization/test_map/test_map.yaml -> /home/shaggy/paper_implementation/agv_localisation_implementation/install/localization/share/localization/test_map\x1b[0m\n'}
+[3.454238] (localization) StdoutLine: {'line': b'\x1b[39msymbolically linking /home/shaggy/paper_implementation/agv_localisation_implementation/build/localization/test_map/test_map.png -> /home/shaggy/paper_implementation/agv_localisation_implementation/install/localization/share/localization/test_map\x1b[0m\n'}
+[3.466349] (-) TimerEvent: {}
+[3.565843] (localization) CommandEnded: {'returncode': 0}
+[3.566410] (-) TimerEvent: {}
+[3.570257] (localization) JobEnded: {'identifier': 'localization', 'rc': 0}
+[3.570660] (-) EventReactorShutdown: {}

@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-97442d294fec80483bbe.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "racecar_simulator",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ackermann_publisher::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ackermann_publisher-7d4d9a8ab770f9d69e77.json",
+					"name" : "ackermann_publisher",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "racecar_simulator::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-racecar_simulator-5bee731ada03979ff40e.json",
+					"name" : "racecar_simulator",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "racecar_simulator_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-racecar_simulator_uninstall-214cbb1023eb7a976b98.json",
+					"name" : "racecar_simulator_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "simulate::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-simulate-e5ba1c804bfbef3d8178.json",
+					"name" : "simulate",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-0256226c10c4dbe2c4d0.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/shaggy/paper_implementation/agv_localisation_implementation/build/racecar_simulator",
+		"source" : "/home/shaggy/paper_implementation/agv_localisation_implementation/src/racecar_simulator"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
